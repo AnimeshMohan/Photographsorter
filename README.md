@@ -1,0 +1,2 @@
+# Photographsorter
+JPEG files
