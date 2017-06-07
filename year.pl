@@ -6,7 +6,7 @@ $day = $ARGV[2] ;							#contains date
 opendir (Unsortedpics, '.') or die "Couldn't open directory, $!";
 while ($file = readdir Unsortedpics) 
 {
-	  if ( $file eq $ye)						#checks if folder for that year exsists
+	  if ( $file eq $ye)						#checks if folder for that year exists
   	{
 		system($^X, "month.pl",@ARGV);				#calls month.pl
 		$flag = 1 ; 
